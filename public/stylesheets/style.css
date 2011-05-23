@@ -1,0 +1,167 @@
+/* jQuery Roundrr CSS Stylesheet 1.0 */
+
+.background {
+    position:absolute;
+    width:80%;
+    margin:10%;
+    }
+    
+.circle {
+    position:absolute;
+    left:490px;
+    top:35px;
+    }
+    
+    
+.flag {
+    height:40px;
+    position:absolute;
+    top:6px;
+    left:250px;
+    }
+    
+.text_block {
+    position:absolute;
+    }
+
+#all {
+    position: absolute;
+    top: 10px; left: 50px;
+    width: 375px;
+    height:400px;
+    text-indent:20px;
+    color:#666;
+    }
+
+#all h2 {
+    color:#555;
+    font-style:serif;
+    font-size:22px;
+    margin:1px;
+    padding:1px;
+    }
+
+
+.info {
+    display: none;
+    position: absolute;
+    top: 10px; left: 50px;
+    width: 375px;
+    height:400px;
+    }
+
+.info p {
+    text-indent:20px;
+    color:#666;
+    }
+
+.info h2 {
+    color:#d3102a;
+    font-style:serif;
+    font-size:40px;
+    margin:0 0 0 20px;
+    padding:0px;
+    
+    }
+    
+
+#next {
+    left:350px;
+	z-index: 500;
+    }
+
+#prev {
+    
+    left:65px;
+    text-decoration:none;
+    }
+
+.container {
+    margin-left:180px;
+	position: relative;
+	height: 525px
+}
+
+.my_class {
+	font-size: 1.5em;
+	color: #abc;
+	background-color: transparent;
+}
+
+.my_class img {
+	height: 130px;
+	width:;
+}
+
+#roundrr_navigation a {
+    position: absolute;
+	font-size:20px;
+    top:525px;	
+    color:#d3102a;
+    text-decoration:none;
+}
+
+#roundrr_navigation p{
+    position:absolute;
+    color:#888;
+    top:480px;
+    left:50px;
+    font-size:20px;
+    }
+
+.centerImage {
+	width:450px;
+}
+
+.roundrr_center {
+	background-color: transparent;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50px;
+	width: 330px;
+}
+
+#roundrr_container, #roundrr_container2 {
+	position: relative;
+	left: -20px;
+	top: -375px;
+	width: 100px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.roundrr_div_item {
+	background-color: none;
+	height: 50px;
+	padding: 40px;
+	color: #234;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	cursor: pointer;
+}
+
+
+.selected{
+
+//background-color:red;
+//border:2px solid red;
+color:#AABBCC;
+font-size:1.5em;
+
+}
+
+.roundrr_center, .roundrr_center img, .centerImage{
+ cursor:pointer;
+}
+
+
+
+#roundrr_container, #roundrr_container2{
+
+height:auto;
+}
+
+
