@@ -18,7 +18,7 @@ jQuery(document).ready(function()
 			centerClass: 'roundrr_center',
 			listClass: 'list', 
 			itemClass: 'item', 
-			radius: 220, 
+			radius: 160, 
 			animSpeed:400, 
 			centerX: 29, 
 			centerY: 60, 

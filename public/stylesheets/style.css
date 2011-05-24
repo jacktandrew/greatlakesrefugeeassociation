@@ -1,27 +1,61 @@
 /* jQuery Roundrr CSS Stylesheet 1.0 */
 
-#banner { color: white; background: black; font-family: Arial;}
-nav li { list-style-type: none; float: left; margin: 5px 20px; }
-nav li a { text-decoration: none; }
+* { margin: 0px; padding: 0px; }
+
+header h3, a { 
+	font-family: lucida, arial, sans-serif; 
+	font-weight: lighter; 
+	}
+	
+#banner { 
+	color: white; 
+	background: black; 
+	}
+	
+#banner h3 { 
+	font-size: 18px; 
+	padding: 10px 50px; 
+	}
+	 
+nav {
+	height: 25px; 
+	background: green; 
+	display: block;
+	}
+	
+nav ul { 
+	margin-left: 50px; }
+	
+nav li { 
+	list-style-type: none; 
+	float: left;
+	display: block; 
+	}
+	
+nav li a { 
+	text-decoration: none; 
+	margin: 5px 20px; 
+	color: white; 
+	display: block;
+	font-size: 12px;
+	}
 
 .background {
     position:absolute;
-    width:80%;
-    margin:10%;
+    width:70%;
+    margin:5%;
     }
     
 .circle {
     position:absolute;
-    left:490px;
-    top:35px;
+    left:490px; top:85px;
     }
     
     
 .flag {
     height:40px;
     position:absolute;
-    top:6px;
-    left:250px;
+    top:2px;  left:250px;
     }
     
 .text_block {
@@ -30,9 +64,8 @@ nav li a { text-decoration: none; }
 
 #all {
     position: absolute;
-    top: 10px; left: 50px;
+    top: 60px; left: 50px;
     width: 375px;
-    height:400px;
     text-indent:20px;
     color:#666;
     }
@@ -40,16 +73,15 @@ nav li a { text-decoration: none; }
 #all h2 {
     color:#555;
     font-style:serif;
-    font-size:22px;
-    margin:1px;
-    padding:1px;
+    font-size:18px;
+    margin: 20px 0px 8px 0px;
     }
 
 
 .info {
     display: none;
     position: absolute;
-    top: 10px; left: 50px;
+    top: 80px; left: 50px;
     width: 375px;
     height:400px;
     }
@@ -57,13 +89,14 @@ nav li a { text-decoration: none; }
 .info p {
     text-indent:20px;
     color:#666;
+	font-size: 15px;
     }
 
 .info h2 {
     color:#d3102a;
     font-style:serif;
     font-size:40px;
-    margin:0 0 0 20px;
+    margin:0 0 5px 20px;
     padding:0px;
     
     }
@@ -81,9 +114,7 @@ nav li a { text-decoration: none; }
     }
 
 .container {
-    margin-left:180px;
 	position: relative;
-	height: 525px
 }
 
 .my_class {
@@ -93,14 +124,14 @@ nav li a { text-decoration: none; }
 }
 
 .my_class img {
-	height: 130px;
+	height: 100px;
 	width:;
 }
 
 #roundrr_navigation a {
     position: absolute;
-	font-size:20px;
-    top:525px;	
+	font-size:16px;
+    top:450px;	
     color:#d3102a;
     text-decoration:none;
 }
@@ -114,23 +145,20 @@ nav li a { text-decoration: none; }
     }
 
 .centerImage {
-	width:450px;
+	width:300px;
 }
 
 .roundrr_center {
 	background-color: transparent;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	top: 50px;
+	position: absolute;
+	top: 70px; left: 530px;
 	width: 330px;
 }
 
 #roundrr_container, #roundrr_container2 {
 	position: relative;
-	left: -20px;
-	top: -375px;
+	left: 140px;
+	top: 60px;
 	width: 100px;
 	height: auto;
 	text-align: center;
