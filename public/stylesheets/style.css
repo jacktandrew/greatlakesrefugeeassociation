@@ -1,5 +1,9 @@
 /* jQuery Roundrr CSS Stylesheet 1.0 */
 
+#banner { color: white; background: black; font-family: Arial;}
+nav li { list-style-type: none; float: left; margin: 5px 20px; }
+nav li a { text-decoration: none; }
+
 .background {
     position:absolute;
     width:80%;
