@@ -25,7 +25,7 @@ $("#testLoad").load("http://seattletimes.nwsource.com/html/localnews/2009950622_
 			centerY: 60, 
 			animationEffect: 1, //(1:off, 5:light,10:heavy, 15:subtle)
 			selectEvent: "click", 	
-			centerImageSrc: "images/all_map.png",
+			centerImageSrc: "images/all_map_gray.png",
 			
 			
 			// on selecting/clicking an item on the wheel
