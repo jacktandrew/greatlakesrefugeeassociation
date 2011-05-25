@@ -2,17 +2,37 @@
 
 * { margin: 0px; padding: 0px; }
 
-header h3, a { 
-	font-family: lucida, arial, sans-serif; 
-	font-weight: lighter; 
+li { list-style-type: none; }
+
+a { text-decoration: none; }
+
+p { text-indent:20px;}
+
+
+.standard_page {
+	margin: 20px 50px;
+	width: 700px;
 	}
 	
+.standard_page p, a, li {
+	margin:5px 2px 5px 2px; 
+	font-family: lucida, arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 14px;
+	}
+
+
+h1, h2, h3, h4, h5, a, li {
+	font-family: lucida, arial, sans-serif; 
+	font-weight: lighter;
+	}	
+
 #banner { 
 	color: white; 
 	background: black; 
 	}
 	
-#banner h3 { 
+h1 { 
 	font-size: 18px; 
 	padding: 10px 50px; 
 	}
@@ -27,17 +47,17 @@ nav ul {
 	margin-left: 50px; }
 	
 nav li { 
-	list-style-type: none; 
 	float: left;
 	display: block; 
 	}
 	
-nav li a { 
-	text-decoration: none; 
-	margin: 5px 20px; 
+nav ul li { 
+	margin: 5px 20px;
+	}
+	
+nav ul li a {	 
 	color: white; 
-	display: block;
-	font-size: 12px;
+	font-size: 13px;
 	}
 
 .background {

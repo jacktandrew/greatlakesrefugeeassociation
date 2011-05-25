@@ -7,7 +7,8 @@ jQuery(document).ready(function()
 		 var imageSrc = "";
 		 var largerImage = "";
 		 var speechBubble = "";
-      
+ 
+$("#testLoad").load("http://seattletimes.nwsource.com/html/localnews/2009950622_burundifarmxxm.html")     
 
 	  	jQuery("#roundrr_container").roundrrwheel(
 	  	{

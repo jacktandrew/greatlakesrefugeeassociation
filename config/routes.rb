@@ -1,12 +1,16 @@
 RefugeeMap::Application.routes.draw do
   get 'pages/home'
-  get 'pages/media'
   get 'pages/about'
+  get 'pages/press'
+  get 'pages/video'
+  get 'pages/photos'
   get 'pages/contact'
 
   root :to => 'pages#home'
-  match 'media/' => 'pages#media'
   match 'about/' => 'pages#about'
+  match 'press/' => 'pages#press'
+  match 'video/' => 'pages#video'
+  match 'photos/' => 'pages#photos'
   match 'contact/' => 'pages#contact'
 
   # The priority is based upon order of creation:

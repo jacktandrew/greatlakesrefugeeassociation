@@ -7,9 +7,17 @@ class PagesController < ApplicationController
     @title = "About"
   end
   
-  def media
-    @title = "Media"
+  def press
+    @title = "press"
   end
+  
+  def photos
+    @title = "Photos"
+  end
+  
+  def video
+    @title = "Video"
+  end  
   
   def contact
     @title = "Contact"
