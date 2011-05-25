@@ -11,7 +11,7 @@ p { text-indent:20px;}
 
 .standard_page {
 	margin: 20px 50px;
-	width: 700px;
+	width: 800px;
 	}
 	
 .standard_page p, a, li {
@@ -177,8 +177,7 @@ nav ul li a {
 
 #roundrr_container, #roundrr_container2 {
 	position: relative;
-	left: 140px;
-	top: 60px;
+	top: 60px; left: 40px;
 	width: 100px;
 	height: auto;
 	text-align: center;

@@ -11,8 +11,8 @@ class PagesController < ApplicationController
     @title = "press"
   end
   
-  def photos
-    @title = "Photos"
+  def photo
+    @title = "Photo"
   end
   
   def video
