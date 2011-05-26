@@ -55,7 +55,7 @@ nav ul li {
 	margin: 5px 20px;
 	}
 	
-nav ul li a {	 
+nav ul li a {
 	color: white; 
 	font-size: 13px;
 	}
@@ -70,8 +70,9 @@ nav ul li a {
     position:absolute;
     left:490px; top:85px;
     }
-    
-    
+
+.hidden_map { display: none; }
+
 .flag {
     height:40px;
     position:absolute;
