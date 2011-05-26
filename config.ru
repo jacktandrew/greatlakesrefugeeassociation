@@ -1,5 +1,19 @@
-require "config/environment"
+# This file is used by Rack-based servers to start the application.
 
-use Rails::Rack::LogTailer
-use Rails::Rack::Static
-run ActionController::Dispatcher.new
+require ::File.expand_path('../config/environment',  __FILE__)
+run RefugeeMap::Application
+
+use Rack::Static, 
+  :urls => ["/stylesheets", "/images"],
+  :root => "public"
+
+run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/index.html', File::RDONLY)
+  ]
+}
