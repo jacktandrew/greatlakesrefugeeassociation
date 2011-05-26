@@ -113,7 +113,7 @@ $("#testLoad").load("http://seattletimes.nwsource.com/html/localnews/2009950622_
 			
 			imageSrc = thisImage.attr('src');
             //largerImage = imageSrc.replace('_bigger', '');
-            currentMap = imageSrc.replace('_FM.png', '_map_gray.png');	
+            currentMap = imageSrc.replace('FM.png', 'map_gray.png');	
             imageCaption = thisImage.attr('alt');
             speechBubble =  jQuery('.roundrr_speech');
             
