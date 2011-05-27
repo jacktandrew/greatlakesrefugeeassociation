@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   end
   
   def press
-    @title = "press"
+    @title = "Press"
   end
   
   def photo
