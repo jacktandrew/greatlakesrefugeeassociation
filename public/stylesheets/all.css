@@ -62,8 +62,8 @@ nav ul li a {
 
 .background {
     position:absolute;
-    width:70%;
-    margin: 10px 15px;
+    height: 300px;
+    margin: 15px 0 0 35px;
     }
     
 .circle {
@@ -101,7 +101,7 @@ nav ul li a {
     margin: 20px 0px 0px 0px;
     }
 
-#all .text_block { top: 45px;}
+#all .text_block { top: 55px; font-size:100%;}
 
 
 .info {
@@ -115,7 +115,7 @@ nav ul li a {
 .info p {
     text-indent:20px;
     color:#666;
-	font-size: 99%;
+	font-size: 95%;
     }
 
 .info h2 {
@@ -177,13 +177,13 @@ nav ul li a {
 .roundrr_center {
 	background-color: transparent;
 	position: absolute;
-	top: 70px; left: 530px;
+	top: 70px; left: 525px;
 	width: 300px;
 }
 
 #roundrr_container, #roundrr_container2 {
-	position: relative;
-	top: 60px; left: 40px;
+	position: absolute;
+	top: 60px; left: 560px;
 	width: 100px;
 	height: auto;
 	text-align: center;
